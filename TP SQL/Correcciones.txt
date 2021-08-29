@@ -1,0 +1,13 @@
+Correcciones:
+1. Al hacer natural join esta joineando por la id del competidor y la id de la plaza
+
+2. Idem con la corrección anterior. Mal usado el NATURAL JOIN. 
+
+11. Falta seleccionar el nombre de la plaza para saber a que hacen referencia los 
+valores que devuelve. 
+
+12. Tenías que seleccionar el nombre de la plaza, seleccionaste el id.
+
+13. Tenías que hacer un ALTER TABLE, no agregarlo manualmente en la tabla. 
+
+17. No devuelve bien. 
